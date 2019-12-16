@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+# Heron's formula:
+# x[n+1] = 1/2 * (x[n] + a / x[n])
+
 def geron(a):
     x = 1
     e = 0.0000000000001
@@ -12,4 +15,3 @@ def geron(a):
 for i in range(1, 21):
     print(geron(i))
 
-# x[n+1] = 1/2 * (x[n] + a / x[n])
